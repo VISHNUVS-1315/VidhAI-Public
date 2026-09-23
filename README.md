@@ -1,24 +1,22 @@
 <div align="center">
 
 # 🌱 VidhAI
+### AI-Powered Agriculture Ecosystem for Indian Farmers & Consumers
 
-### AI-Powered Agriculture, Built for Indian Farmers
+**“The farmer doesn’t need to understand VidhAI — VidhAI understands the farmer.”**
 
-**One platform for smarter crop decisions, farm management, market access, multilingual assistance, and farmer–consumer connection.**
+![Android](https://img.shields.io/badge/Android-Available-3DDC84?logo=android&logoColor=white)
+![Version](https://img.shields.io/badge/Version-1.0.0-42572A)
+![Languages](https://img.shields.io/badge/Languages-13%2B-C2DBB9)
+![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?logo=flutter&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-Integrated-FFCA28?logo=firebase&logoColor=black)
 
-<br/>
+### 📱 Download the Android App
 
-[![Android](https://img.shields.io/badge/Android-APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://raw.githubusercontent.com/VISHNUVS-1315/VidhAI-Public/main/releases/VidhAI-v1.0.0.apk)
-[![Version](https://img.shields.io/badge/Version-1.0.0-42572A?style=for-the-badge)](https://github.com/VISHNUVS-1315/VidhAI-Public)
-[![Languages](https://img.shields.io/badge/Languages-13%2B-C2DBB9?style=for-the-badge&labelColor=42572A)](#-multilingual-by-design)
+[![Download APK](https://img.shields.io/badge/Download-VidhAI%20v1.0.0%20APK-42572A?style=for-the-badge&logo=android&logoColor=white)](https://raw.githubusercontent.com/VISHNUVS-1315/VidhAI-Public/main/releases/VidhAI-v1.0.0.apk)
 
-<br/>
-
-### 📲 [Download VidhAI Android App](https://raw.githubusercontent.com/VISHNUVS-1315/VidhAI-Public/main/releases/VidhAI-v1.0.0.apk)
-
-**APK v1.0.0 · ~58.6 MB**
-
-[🌐 View Interactive Portfolio](https://vishnuvs-1315.github.io/VidhAI-Public/)
+**APK:** VidhAI v1.0.0 · **Size:** ~58.6 MB  
+**Portfolio:** https://vishnuvs-1315.github.io/VidhAI-Public/
 
 </div>
 
@@ -26,141 +24,222 @@
 
 ## 🌾 What is VidhAI?
 
-**VidhAI** is an AI-powered agricultural ecosystem designed to give farmers the right support at the right time.
+**VidhAI** is an AI-powered agriculture platform designed to bring the farmer’s complete digital journey into one simple ecosystem — from **crop planning and farm decisions to disease support, market awareness, records, community and selling**.
 
-Instead of switching between multiple apps for crop guidance, disease support, weather, market prices, schemes, farm records, and selling, VidhAI brings the complete farming journey into one simple platform.
+The platform is designed around three access paths:
 
-> **The farmer doesn’t need to understand VidhAI — VidhAI understands the farmer.**
+- **Farmer Console** — personalized farm guidance, crop planning, farm management and agricultural tools.
+- **Consumer Console** — community, demand/supply discovery, market information and farmer connection.
+- **AI Assistance Layer** — multilingual AI guidance with text, voice-enabled interaction and contextual actions across the app.
+
+VidhAI focuses on Indian agriculture, multilingual usability, practical farm context and low-connectivity-friendly design.
 
 ---
 
-## ✨ Core Capabilities
+## ✨ Latest VidhAI Capabilities
 
-| 🤖 Intelligence | 🚜 Farm Support | 📈 Market & Access |
-|---|---|---|
-| AI crop recommendations | Crop lifecycle management | Market price information |
-| AI farming assistant | Farm diary & expenses | Demand & supply connection |
-| Disease detection support | Crop calendar | Farmer–consumer ecosystem |
-| Personalized guidance | Weather-based actions | Government schemes |
+### 🧠 1. Live AI Crop Recommendation
+VidhAI sends real farm and preference context to live AI instead of showing generic placeholder crops. Recommendations can consider **location, soil, water source, irrigation, previous crop, farm size, season, budget, crop type and duration preference**.
 
-### 📞 Beyond the Smartphone
+### 💬 2. Context-Aware AI Chat
+The main assistant uses **Groq with `openai/gpt-oss-20b`** for responsive agricultural conversations. The assistant is designed to use farm context and provide concise, farmer-friendly answers.
 
-VidhAI is designed with rural accessibility in mind, including support concepts for **AI assistance through normal phone calls**, multilingual interaction, and low-connectivity usage.
+### 👁️ 3. AI Crop Disease & Pest Support
+Image-based crop analysis uses NVIDIA vision models to assist with disease/pest identification and provide structured guidance. The app includes multi-image and multi-pest analysis flows.
+
+### 🌦️ 4. Weather & Daily Farm Guidance
+Weather information is powered by **Open-Meteo**. Home and task flows combine weather context with farm activity planning.
+
+### 📈 5. Market Price Intelligence
+Market price features integrate **data.gov.in / AGMARKNET** data to help users view agricultural commodity prices and recent market information.
+
+### 📒 6. Farm Management & Records
+Farmers can maintain farm profiles, crop history, expenses, crop diary records, notes, fertilizer/pesticide records and crop lifecycle information.
+
+### 🗓️ 7. Crop Planning & Calendar
+Crop planning tools help organize crop stages, activities, reminders and farming tasks across the crop lifecycle.
+
+### 🏛️ 8. Government Schemes & Agricultural Tools
+VidhAI brings scheme discovery and practical tools such as fertilizer guidance, crop search/checking, market prices and farm utilities into one app.
+
+### 🤝 9. Community + Demand/Supply
+Farmers and consumers can participate in agriculture-focused community flows, share information and use demand/supply features to improve visibility between produce availability and consumer needs.
+
+### 🔔 10. Smart Tasks & Notifications
+Local notification and scheduling support helps users track farm tasks, reminders and important activities.
+
+### 🗣️ 11. Multilingual & Voice-Friendly UX
+VidhAI supports **13+ Indian languages** and includes on-device speech input/output capabilities for easier interaction.
 
 ---
 
 ## 👨‍🌾 Farmer Console
 
-Farmers can use VidhAI to:
+The Farmer Console is built around real farm context rather than one-size-fits-all advice.
 
-- Get personalized crop recommendations
-- Manage farms and active crops
-- Track expenses through the Farm Diary
-- Check weather and market information
-- Identify crop diseases and possible actions
-- Explore government schemes
-- Connect with the farming community
-- Post produce availability and reach consumers
+**Main areas include:**
+
+- Personalized onboarding and farm setup
+- AI crop recommendation
+- AI agriculture chat
+- Crop disease/pest image analysis
+- Weather and farm task guidance
+- Market prices
+- Government schemes
+- Farm diary and expense tracking
+- Crop lifecycle/history
+- Crop calendar and planning
+- Fertilizer/pesticide records and guidance
+- Community and demand/supply
+- Notifications and reminders
+
+---
 
 ## 🛒 Consumer Console
 
-Consumers can:
+The Consumer Console connects agricultural information and farmer interaction from the consumer side.
 
-- Discover farmers and available produce
-- Post crop demand with quantity and date
-- View community updates
-- Check market information
-- Use AI assistance for agriculture-related queries
-- Connect directly with the farmer ecosystem
+**Main areas include:**
 
----
-
-## 🌐 Multilingual by Design
-
-VidhAI supports **13+ Indian languages**, helping reduce language barriers for users across India.
-
-**English · தமிழ் · हिन्दी · తెలుగు · ಕನ್ನಡ · മലയാളം · मराठी · বাংলা · ગુજરાતી · ਪੰਜਾਬੀ · ଓଡ଼ିଆ · অসমীয়া · اردو**
+- Consumer-focused home experience
+- Agriculture community feed
+- Demand posting and supply discovery
+- AI chat adapted for consumer questions
+- Market price information
+- Crop/calendar information
+- Rental machinery and scheme information where applicable
+- Farmer/crop discovery and interaction
+- Profile and language controls
 
 ---
 
-## 📱 Download & Install
+## 🌐 Languages
 
-### Android
+VidhAI is designed for complete localized use across supported Indian languages:
 
-**Direct APK:**  
-👉 **[Download VidhAI v1.0.0](https://raw.githubusercontent.com/VISHNUVS-1315/VidhAI-Public/main/releases/VidhAI-v1.0.0.apk)**
-
-### Installation
-
-1. Download the APK using the button above.
-2. Open the downloaded `VidhAI-v1.0.0.apk` file.
-3. If Android asks, allow installation from the browser/file manager.
-4. Install and open **VidhAI**.
-5. Choose **Farmer Console** or **Consumer Console** and complete onboarding.
-
-> Android may show an “unknown source” warning because this APK is distributed directly through GitHub rather than an app store.
+**English, Tamil, Hindi, Telugu, Kannada, Malayalam, Marathi, Bengali, Gujarati, Punjabi, Odia, Assamese and Urdu.**
 
 ---
 
-## 🧩 VidhAI Ecosystem
+## 🤖 AI Model Routing
+
+| VidhAI workload | Provider / model |
+|---|---|
+| Main App Chat | **Groq — `openai/gpt-oss-20b`** |
+| Main / Deep Reasoning | **NVIDIA — Nemotron 3 Ultra 550B** |
+| Crop Reasoning / Fast AI | **NVIDIA — Nemotron 3.5 Lightning 30B** |
+| Vision / Disease Analysis | **NVIDIA — Nemotron 3 Nano Omni 30B Reasoning** |
+| Safety | **NVIDIA — Nemotron 3.5 Content Safety** |
+
+Model routing is handled on the backend so secrets are not exposed in the Android application.
+
+---
+
+## 🔌 APIs & Services Used
+
+| Service | Purpose | API key in app? |
+|---|---|---|
+| **Groq API** | Main AI chat | No — server-side only |
+| **NVIDIA NIM API** | Crop reasoning, vision and safety | No — server-side only |
+| **data.gov.in / AGMARKNET** | Agricultural market prices | No — server-side only |
+| **Open-Meteo** | Weather data | No key required |
+| **Firebase** | Authentication, Firestore, Storage and messaging | Firebase client configuration only; privileged credentials remain server-side |
+| **Render** | Secure Node.js/TypeScript backend hosting | Server environment |
+| **Device Speech / TTS** | Voice input and output | On-device |
+
+### 🔐 Secret Management
+
+VidhAI never publishes real secret values in this repository or README. Production secrets are stored in backend environment variables such as:
+
+```env
+GROQ_API_KEY=
+NVIDIA_API_KEY=
+DATA_GOV_API_KEY=
+FIREBASE_SERVICE_ACCOUNT_JSON=
+```
+
+Only the **variable names** are documented. Actual credentials stay in the secure backend environment.
+
+---
+
+## 🏗️ Technical Architecture
 
 ```text
-                         VidhAI
-                            │
-         ┌──────────────────┴──────────────────┐
-         │                                     │
-   Farmer Console                       Consumer Console
-         │                                     │
-  Crop Recommendation                   Discover Farmers
-  Farm Management                       Demand / Supply
-  Disease Support                       Community
-  Market Prices                         Market Information
-  Government Schemes                    AI Assistance
-         │                                     │
-         └──────────── Farmer ↔ Consumer ──────┘
+                         ┌──────────────────────┐
+                         │      VidhAI App      │
+                         │  Flutter / Android   │
+                         └──────────┬───────────┘
+                                    │
+                 ┌──────────────────┼──────────────────┐
+                 │                  │                  │
+                 ▼                  ▼                  ▼
+        ┌────────────────┐  ┌────────────────┐  ┌────────────────┐
+        │ Secure Backend │  │    Firebase    │  │   Open-Meteo   │
+        │ Node.js / TS   │  │ Auth/DB/Store  │  │    Weather     │
+        │    (Render)    │  └────────────────┘  └────────────────┘
+        └───────┬────────┘
+                │
+       ┌────────┼───────────────┐
+       │        │               │
+       ▼        ▼               ▼
+   ┌───────┐ ┌────────┐  ┌───────────────┐
+   │ Groq  │ │ NVIDIA │  │ data.gov.in   │
+   │ Chat  │ │  NIM   │  │ / AGMARKNET   │
+   └───────┘ └────────┘  └───────────────┘
 ```
 
 ---
 
-## 🛠️ Technology Direction
+## 📶 Connectivity Design
 
-VidhAI is built around a modern mobile-first architecture with:
-
-- **Flutter** for cross-platform application development
-- **Firebase** for cloud services and application data
-- **AI services** for personalized agricultural assistance
-- **Open-Meteo** for weather data
-- **Government/open agricultural datasets** for market information
-- **Offline-friendly storage and synchronization** for low-connectivity environments
+VidhAI is **offline-aware**, not “AI fully offline.” Local preferences and selected records can remain available on-device, while live AI, current weather, market prices and cloud synchronization require internet access. This separation helps the app remain useful in unstable-network conditions without pretending live services are available offline.
 
 ---
 
-## 🎯 Why VidhAI?
+## 🧰 Technology Stack
 
-Agricultural information is often scattered across multiple platforms and may not be available in a farmer’s preferred language or at the moment it is needed.
-
-VidhAI focuses on bringing **decision support, farm management, communication, market access, and accessibility into one ecosystem**.
+- **Frontend:** Flutter / Dart
+- **Backend:** Node.js + TypeScript
+- **Cloud & Identity:** Firebase
+- **Backend Hosting:** Render
+- **AI Chat:** Groq
+- **AI Reasoning / Vision / Safety:** NVIDIA NIM
+- **Weather:** Open-Meteo
+- **Market Data:** data.gov.in / AGMARKNET
+- **Local persistence:** Shared Preferences and app-managed local state
+- **Notifications:** Flutter Local Notifications + WorkManager
+- **Voice:** On-device Speech-to-Text and Text-to-Speech
 
 ---
 
-## 🚀 Explore the Project
+## ✅ Current Build Status
+
+- Android app build: **working**
+- Web build: **working**
+- Startup flow: **verified**
+- Current app version: **1.0.0+1**
+- Public APK: **VidhAI v1.0.0**
+
+> The public APK is provided for project demonstration and evaluation. New source changes may be newer than the packaged public APK until the next APK is published.
+
+---
+
+## 📥 Download
+
+**Direct APK:**  
+https://raw.githubusercontent.com/VISHNUVS-1315/VidhAI-Public/main/releases/VidhAI-v1.0.0.apk
+
+**Project Portfolio:**  
+https://vishnuvs-1315.github.io/VidhAI-Public/
+
+---
+
+## 🎯 Vision
+
+VidhAI aims to make agricultural technology practical for everyday use by bringing **AI guidance, farm records, disease support, live data, multilingual access and farmer–consumer connection** into one understandable platform.
 
 <div align="center">
 
-### [🌐 Open VidhAI Interactive Portfolio](https://vishnuvs-1315.github.io/VidhAI-Public/)
-
-### [📲 Download Android APK](https://raw.githubusercontent.com/VISHNUVS-1315/VidhAI-Public/main/releases/VidhAI-v1.0.0.apk)
-
-</div>
-
----
-
-<div align="center">
-
-### 🌱 VidhAI
-
-**From seeding to selling — intelligent support throughout the farming journey.**
-
-© 2026 VidhAI
+### 🌱 VidhAI — Smarter decisions from seeding to selling.
 
 </div>
