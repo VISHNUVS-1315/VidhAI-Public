@@ -13,9 +13,9 @@
 
 ### 📱 Download the Android App
 
-[![Download APK](https://img.shields.io/badge/Download-VidhAI%20v1.0.0%20APK-42572A?style=for-the-badge&logo=android&logoColor=white)](https://raw.githubusercontent.com/VISHNUVS-1315/VidhAI-Public/main/releases/VidhAI-v1.0.0.apk)
+[![Download APK](https://img.shields.io/badge/Download-VidhAI%20v1.0.0%20APK-42572A?style=for-the-badge&logo=android&logoColor=white)](https://github.com/VISHNUVS-1315/VidhAI/releases/download/latest-apk/VidhAI-latest.apk)
 
-**APK:** VidhAI v1.0.0 · **Size:** ~58.6 MB  
+**APK:** VidhAI v1.0.0 · **Size:** ~168 MB  
 **Portfolio:** https://vishnuvs-1315.github.io/VidhAI-Public/
 
 </div>
@@ -227,7 +227,7 @@ VidhAI is **offline-aware**, not “AI fully offline.” Local preferences and s
 ## 📥 Download
 
 **Direct APK:**  
-https://raw.githubusercontent.com/VISHNUVS-1315/VidhAI-Public/main/releases/VidhAI-v1.0.0.apk
+https://github.com/VISHNUVS-1315/VidhAI/releases/download/latest-apk/VidhAI-latest.apk
 
 **Project Portfolio:**  
 https://vishnuvs-1315.github.io/VidhAI-Public/
